@@ -1,0 +1,163 @@
+/* Write some CSS below */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin: 0;
+}
+
+div {
+	display: block;
+}
+
+
+/* Banner Section */
+
+.principal {
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1)), url('https://images.unsplash.com/photo-1449157291145-7efd050a4d0e');
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+  	height: 250px;
+
+  /* Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.principal h1 {
+	font-family: 'Baloo 2', sans-serif;
+	color: white;
+	text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	letter-spacing: 3px;
+}
+
+.principal p {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	opacity: 0.7;
+	font-size: 25px;
+	text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	letter-spacing: 0px;
+}
+
+
+.button {
+	background-color: rgb(18, 90, 128);
+	color: white;
+	padding: 16px 48px;
+	border-radius: 10px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 20px;
+	text-align: center;
+	border: none;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+.button:hover {
+	background-color: rgba(93, 186, 173);
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+
+/* Cards Section */
+
+.cards-title {
+	width: 1080px;
+	margin: 60px auto;
+}
+
+.cards-title h2 {
+	font-family: 'Baloo 2', sans-serif;
+	font-size: 40px;
+	color: rgb(18, 90, 128);
+	margin-left: 25px;
+}
+
+.cards-title p {
+	font-size: 20px;
+	font-kerning: 5px;
+	text-align: left;
+	line-height: 30px;
+	display: block;
+    margin-right: 80px;
+    margin-left: 25px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+
+}
+
+.cards-section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card {
+	background: rgb(18, 90, 128);
+	color: white;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	border-radius: 50px;
+	padding: 24px;
+	margin: 0px 20px;
+	transition: 0.5s;
+}
+
+.card img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 30px;
+}
+
+.card h4 {
+	font-family: 'Baloo 2', sans-serif;
+	font-size: 21px;
+}
+
+.card p { 
+	font-size: 15px;
+	text-align: left;
+	line-height: 20px;
+	margin-left: 6px;
+	margin-right: 6px;
+ }
+
+ .card:hover {
+	background-color: rgba(93, 186, 173);
+}
+
+/* Footer Section */
+
+.footer {
+	height: 80px;
+	background: rgb(93, 186, 173);
+	padding: 0px 0px;
+}
+
+.footer-container {
+	width: 600px;
+	margin: 0px auto;
+	display: block;
+	color: white;
+	padding: 3px 0px;
+	background: rgb(93, 186, 173);
+	text-decoration: none;
+	font-size: 18px;
+	text-align: left;
+	padding-right: 700px;
+	border: none;
+}
+
+.footer-container:hover {
+	color: rgba(30, 80, 130);
+}
+
+
+
